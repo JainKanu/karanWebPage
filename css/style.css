@@ -33,8 +33,9 @@ section {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, HK Grotesk, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: -apple-system, BlinkMacSystemFont, HK Grotesk, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -161,7 +162,8 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono,
+    Courier New, monospace;
   font-size: 1em;
 }
 
@@ -911,6 +913,10 @@ button:focus {
   ._3u9Lq ._3pJeh {
     margin: 0 auto 3.4em;
   }
+
+  ._1-uOx {
+    height: 30em !important;
+  }
 }
 
 ._1-uOx {
@@ -942,7 +948,7 @@ button:focus {
   }
 
   ._3u9Lq ._2xNVx {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   ._3-zUs:not(._3u9Lq) ._2xNVx {
@@ -1207,7 +1213,7 @@ button:focus {
 @media only screen and (max-width: 991px) {
   ._3-zUs:not(._3u9Lq) ._1gnoc {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
@@ -1276,6 +1282,10 @@ button:focus {
 
 [skinmode="light"] .RmyXl {
   color: #9fa5b4;
+}
+
+._2kzwN {
+  margin: 1.5em -3em 2.4em;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1537,7 +1547,7 @@ button:focus {
 
 @media only screen and (min-width: 992px) {
   ._3QuIE {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   ._3QuIE.XYeFn {
@@ -1603,7 +1613,7 @@ button:focus {
 @media only screen and (min-width: 992px) {
   ._2atqD {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
@@ -1772,11 +1782,15 @@ button:focus {
   content: "";
 }
 
-[skinmode="dark"] .xu8JX:last-child ._2SWM8:not(:first-child):not(:last-child):before {
+[skinmode="dark"]
+  .xu8JX:last-child
+  ._2SWM8:not(:first-child):not(:last-child):before {
   background-color: #262626;
 }
 
-[skinmode="light"] .xu8JX:last-child ._2SWM8:not(:first-child):not(:last-child):before {
+[skinmode="light"]
+  .xu8JX:last-child
+  ._2SWM8:not(:first-child):not(:last-child):before {
   background-color: #d9e6f1;
 }
 
@@ -2090,7 +2104,7 @@ button:focus {
 @media only screen and (min-width: 992px) {
   .rNa0b {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .rNa0b:not(._2DtC9) {
@@ -2112,6 +2126,10 @@ button:focus {
     width: 70%;
     margin-bottom: 4em;
   }
+}
+
+._2mdW9 {
+  text-align: right;
 }
 
 @media only screen and (min-width: 992px) {
