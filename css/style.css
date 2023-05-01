@@ -639,7 +639,7 @@ button:focus {
   z-index: 1;
   top: 12rem;
   left: 4rem;
-  display: none;
+  display: block;
   width: 34rem;
   padding: 2rem;
   border-radius: 0.4rem;
@@ -673,6 +673,12 @@ button:focus {
 @media only screen and (min-width: 2560px) {
   ._1Z1Li {
     left: 35rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  ._1Z1Li {
+    display: none;
   }
 }
 
@@ -865,19 +871,18 @@ button:focus {
   position: relative;
   width: 114em;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0 0 0 32em;
 }
 
 @media only screen and (max-width: 991px) {
   .mQc-W {
-    padding-right: 3em;
     padding-left: 3em;
+    margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .mQc-W {
-    padding-right: 7em;
     padding-left: 7em;
   }
 }
@@ -931,7 +936,6 @@ button:focus {
 
 @media only screen and (min-width: 992px) {
   ._1m93P {
-    flex: 1 1 0;
     margin-right: 20em;
   }
 
